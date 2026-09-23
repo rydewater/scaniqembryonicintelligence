@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ScanIQ",
+      "hasCanvas": false,
+      "bodyTextLen": 435,
+      "bodyTextHash": "528528f0cc062559e6f952ad4f87d8ce1b37c751161a9cd29143e7c32cd2a31c",
+      "bodyTextPrefix": "SCANIQ Deck Partners Patent SCANIQ LLC · CAGE 23SW3 · UEI CSJGXL",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ScanIQ",
+      "hasCanvas": false,
+      "bodyTextLen": 384,
+      "bodyTextHash": "be38df272bec43a04c342266dafaebcc703366507ff55f1c5e0c3bc393608697",
+      "bodyTextPrefix": "SCANIQ Deck Partners Patent SCANIQ LLC ScanIQ Livestock Embryo I",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

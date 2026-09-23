@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "ScanIQ",
+      "hasCanvas": false,
+      "bodyTextLen": 264,
+      "bodyTextHash": "2ae216f112ce1f042820864bd04089ea55860db0a1efb87e9469f6c384a66860",
+      "bodyTextPrefix": "SCANIQ Deck Patent CONFIDENTIAL · SEP 2026 RESEARCH & PARTNERSHI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "ScanIQ",
+      "hasCanvas": false,
+      "bodyTextLen": 232,
+      "bodyTextHash": "599ee1cbcb60141ca34320c06863faf7e32be179f15e3f0016e8247041935d7e",
+      "bodyTextPrefix": "SCANIQ Deck Patent RESEARCH & PARTNERSHIP DECK Adaptive Bio-Reso",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

@@ -1,0 +1,212 @@
+SCANIQ LLC
+FIRST PROVISIONAL PATENT DRAFT — FOR PATENT COUNSEL
+Not filed. Not legal advice. MagIQ/ASW language excluded.
+
+Proposed inventor: John Antaramian
+Proposed assignee: ScanIQ LLC
+Date of internal disclosure: September 2026
+
+TITLE
+
+ADDITIVE MANUFACTURING OF TOPOLOGICAL CHIRAL METAMATERIAL RESONATORS
+FOR NEAR-FIELD TERAHERTZ SPECTROSCOPY AND QUANTUM-ASSISTED
+DEVELOPMENTAL PHENOTYPING
+
+FIELD
+
+The disclosure relates to additive micromanufacturing, topological metamaterials,
+and non-invasive biomedical metrology: systems and methods for manufacturing
+functionally graded, chiral silk-nanofiber topological resonators using dynamic
+field-assisted extrusion, and using those resonators in opposed near-field
+terahertz polarimetry, broadband impedance spectroscopy, and nitrogen-vacancy
+diamond quantum magnetometry to assess biological developmental state without
+biopsy.
+
+BACKGROUND
+
+Embryo assessment in cattle and horse production still infers competence from
+morphology, timing, or occasional invasive genetic assays. A recipient cow or
+mare is occupied whether the transferred embryo is alive or already stalled.
+Electrical impedance spectroscopy already shows that developmental state moves
+a measurable spectrum (bovine 1.49 MHz differential real-impedance marker;
+medaka multi-stage EIS; porcine oocyte phenotyping to 30 MHz). Conventional
+electrodes and bulk THz transmission through water are inadequate. Prior art
+exists separately for NV microfluidic magnetometers, resonant biosensors,
+magnetic-field-assisted printing, silk THz metamaterials, and Möbius resonators.
+The invention is the closed loop: field-native co-design, manufactured topological
+resonators, differential multimodal sensing, temporal mapping to developmental
+trajectories, and measured-response redesign.
+
+SUMMARY
+
+A platform integrating (i) SDF + spatial material tensor design, (ii) field-aligned
+biomimetic nanocomposites, (iii) Möbius or other non-orientable resonators,
+(iv) evanescent RF/THz polarimetry and broadband impedance, (v) optional
+differential NV-diamond magnetometry with environmental cancellation, and
+(vi) a temporal multimodal model outputting stage, trajectory deviation, and
+competence probability.
+
+Q is defined for the combined resonator-sample system. Schumann resonances
+are environmental baselines, not biological clocks. Optimization maximizes
+developmental-state information per unit exposure, not Q alone. Stimulation /
+growth-enhancement is a later, separate research branch.
+
+DRAWINGS
+
+FIG. 1 Field-assisted aperture printhead, roto-field stator, coaxial photopolymerization.
+FIG. 2 Manufactured Möbius resonator with programmed nanofiber director.
+FIG. 3 Opposed-resonator cassette, evanescent zone, dual NV nodes.
+FIG. 4 Healthy versus arrested multimodal developmental trajectory.
+FIG. 5 THz pulse-modulation and Stokes polarimetry chain.
+FIG. 6 Adaptive Schumann/EMI cancellation.
+FIG. 7 Temporal multimodal (MCAT-Net) architecture.
+FIG. 8 1.49 MHz ΔRe(Z) plots.
+
+DETAILED DESCRIPTION (compressed for this text export; see on-screen specification)
+
+A. Processor maintains f(x) (SDF) and M(x) = {fiber fraction, director, chirality,
+permittivity, conductivity}. Gradient-informed slicing drives toolpaths, coil
+currents, and cure dose. As-built metrology writes back into the field.
+
+B. Feedstock: methacrylated silk fibroin + aramid nanofibers + photoinitiator.
+Micro-aperture 50–250 μm. Rotating B and/or E field programs fiber director.
+UV/blue cure locks anisotropy. Novelty is voxel-wise chirality and resonant-
+response targeting from the implicit field, not magnetic printing per se.
+
+C. Möbius ribbon (odd multiple of 180° twist) yields Berry phase π and fractional
+half-integer modes. Opposed copies about a 100–170 μm culture channel.
+
+D. Evanescent interrogation (0.1–3 THz and kHz–tens of MHz EIS). LCP/RCP
+modulation. Measure Δf, ΔQ, S-parameters, phase, Stokes [S0..S3], ΔS3.
+
+E. Optional NV ODMR gradiometer: sensing node near the well, reference node
+offset. Cancel geomagnetic, 50/60 Hz, Schumann (~7.83 Hz). Near-field only.
+
+F. AI discriminator ingests multimodal time series against separate meiotic and
+mitotic atlases. Outputs stage, Mahalanobis deviation, arrest risk, uncertainty.
+Discovery models walled from clinical claims.
+
+G. Closed-loop redesign of M(x) from measured transfer function, including
+embodiments without a biological specimen.
+
+H. Sensing first. No assumption that EM exposure improves viability. Human
+embryo work requires reproductive-research oversight.
+
+CLAIMS
+
+1. A resonant biofabrication and developmental sensing system, comprising: an
+additive manufacturing apparatus comprising an extrusion aperture, an
+electromagnetic orientation assembly configured to apply a dynamically rotating
+vector field within an extrusion print zone, and an irradiation source configured
+to initiate in-situ photopolymerization of an extrudable composite feedstock
+containing anisotropic microstructures to fabricate a solid topological resonator;
+a sensing fixture comprising at least one manufactured topological resonator
+positioned adjacent to a biological incubation chamber; an electromagnetic
+source operably coupled to pump modulated high-frequency signals through the
+topological resonator to establish an evanescent near-field within the biological
+incubation chamber; and a detection subsystem configured to measure
+perturbations in a quality factor (Q-factor), an eigenmode resonance frequency,
+and a polarization state of the topological resonator induced by a biological
+specimen positioned within the biological incubation chamber.
+
+2. The system of claim 1, wherein the topological resonator comprises a Möbius
+strip geometry having a single-sided non-orientable surface and an accumulated
+geometric Pancharatnam-Berry phase of π, supporting fractional half-integer
+electromagnetic modes.
+
+3. The system of claim 1, wherein the extrudable composite feedstock comprises
+regenerated silk fibroin, aramid nanofibers (ANFs), and a photoinitiator, wherein
+the cured topological resonator exhibits a flexural strength of at least 450 MPa.
+
+4. The system of claim 1, wherein the electromagnetic orientation assembly
+comprises a multi-pole stator array that generates a rotating magnetic vector
+field at a frequency between 0.1 Hz and 100 Hz, orienting the anisotropic
+microstructures along a three-dimensional vector field defined by an implicit
+signed distance function.
+
+5. The system of claim 1, wherein the electromagnetic source comprises a pulsed
+terahertz emitter operating within a frequency range of 0.1 THz to 3.0 THz, and
+wherein the detection subsystem comprises a polarimetric electro-optic sampling
+detector configured to measure time-resolved Stokes parameters [S0, S1, S2, S3].
+
+6. The system of claim 1, further comprising a quantum magnetometry subsystem,
+the subsystem comprising: a primary diamond substrate comprising an ensemble
+of nitrogen-vacancy (NV) color centers positioned adjacent to the biological
+incubation chamber; a secondary reference diamond substrate comprising an
+ensemble of NV color centers spaced apart from the biological incubation
+chamber; and a differential processing unit configured to perform optically
+detected magnetic resonance (ODMR) vector magnetometry and execute adaptive
+common-mode cancellation of environmental baseline electromagnetic fields.
+
+7. The system of claim 6, wherein the environmental baseline electromagnetic
+fields canceled by the differential processing unit comprise Earth-ionosphere
+Schumann resonances having a fundamental frequency of approximately 7.83 Hz.
+
+8. The system of claim 1, further comprising an artificial intelligence
+discriminator stored in a non-transitory memory and executed by a processor,
+configured to: ingest time-series streams of the measured Q-factor, resonance
+frequency, polarization state, wideband electrical impedance spectra, and optical
+time-lapse morphokinetics from the biological specimen; and map the time-series
+streams against a calibrated developmental trajectory to output a predictive score
+of biological viability.
+
+9. The system of claim 8, wherein the wideband electrical impedance spectra
+include differential real impedance measurements sampled across a frequency
+band encompassing 1.49 MHz.
+
+10. A method for non-invasively assessing biological developmental viability,
+comprising: positioning an embryonic specimen within a microfluidic sensing well
+positioned between an opposed pair of 3D-printed topological Möbius resonators;
+coupling polarization-modulated terahertz pulses into the opposed topological
+Möbius resonators to generate an evanescent electromagnetic field that interacts
+with the embryonic specimen; measuring shifts in a complex resonance frequency
+(Δfr), a quality factor (ΔQ), and a terahertz circular dichroism (ΔS3) parameter
+across a developmental monitoring period; measuring localized vector magnetic
+field transients using a differential nitrogen-vacancy diamond quantum
+magnetometer, canceling ambient Schumann resonance baselines; and processing
+the measured resonance shifts, quality factor, circular dichroism, vector magnetic
+field transients, and synchronized optical time-lapse frames through a temporal
+transformer model to calculate a developmental trajectory deviation metric.
+
+11. The method of claim 10, wherein the opposed pair of topological Möbius
+resonators are additive-manufactured from a synthetic silk fibroin and aramid
+nanofiber composite whose internal molecular director orientation is steered via
+a rotating electromagnetic field during micro-extrusion.
+
+12. The method of claim 10, wherein the temporal transformer model maintains
+separate, decoupled latent training representations for gamete meiotic maturation
+and embryonic mitotic cleavage.
+
+13. A non-transitory computer-readable storage medium storing instructions that,
+when executed by one or more processors, cause the one or more processors to:
+compile an implicit signed distance field (SDF) and a spatial material orientation
+field representing a topological Möbius resonator; translate the SDF and spatial
+material orientation field into synchronized machine toolpaths for an additive
+manufacturing apparatus, controlling vertical printhead translation, in-situ
+photopolymerization dosage, and dynamic multi-axis coil currents in an
+electromagnetic orientation head; ingest multi-modal sensory data comprising
+terahertz circular dichroism, resonator Q-factor, wideband electrical impedance,
+and nitrogen-vacancy quantum magnetometry signals from a biological specimen
+positioned adjacent to the topological Möbius resonator; adaptively filter
+common-mode environmental noise from the quantum magnetometry signals
+utilizing an Earth-ionosphere Schumann resonance baseline model; and compute
+an embryonic developmental stage classification and a viability prediction score
+utilizing a multi-modal cross-attention neural network.
+
+Counsel should add dependents covering information-per-exposure optimization,
+closed-loop redesign without a biological sample, an optional Helmholtz acoustic
+channel, and non-reproductive uses of the same resonator kernel.
+
+ABSTRACT
+
+Systems and methods manufacture a topologically chiral resonator from a
+field-native geometry and spatial material orientation, using a roto-field aperture
+printhead and in-situ polymerization of a hierarchical silk or polymer composite.
+The resonator is positioned adjacent to a biological specimen and interrogated by
+evanescent RF/THz and impedance measurements, optionally with differential
+NV-diamond magnetometry and environmental cancellation. A temporal multimodal
+model maps spectral perturbations to a developmental-state trajectory and
+viability estimate. Measured electromagnetic response can update the material
+field for subsequent fabrication.
+
+END OF DRAFT
